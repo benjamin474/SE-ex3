@@ -4,7 +4,7 @@ int main()
 {
     int a;
     cin >> a;
-    for (int i = a; i >= 0; i--)
-        cout << "Count down: " << i << endl;
+    for (int i = 0; i <= a; i++)
+        cout << "Count up: " << i << endl;
     return 0;
 }
