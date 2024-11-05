@@ -4,7 +4,8 @@ int main()
 {
     int a;
     cin >> a;
-    for (int i = 10 * a; i >= 0; i -= 10)
-        cout << "Count down: " << i << endl;
+    for(int i = 0;i<=10*a;i+=10)
+        cout << "Count up: " << i << endl;
+        // The conflict is solved.
     return 0;
 }
